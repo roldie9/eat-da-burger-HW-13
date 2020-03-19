@@ -2,10 +2,7 @@
 var connection = require("../config/connection.js");
 
 // Helper function for SQL syntax.
-// Let's say we want to pass 3 values into the mySQL query.
-// In order to write the query, we need 3 question marks.
-// The above helper function loops through and creates an array of question marks - ["?", "?", "?"] - and turns it into a string.
-// ["?", "?", "?"].toString() => "?,?,?";
+// This function turns the array of needed question marks into a string [] => ".."
 function printQuestionMarks(num) {
   var arr = [];
 
@@ -25,12 +22,12 @@ function objToSql(ob) {
     var value = ob[key];
     // check to skip hidden properties
     if (Object.hasOwnProperty.call(ob, key)) {
-      // if string with spaces, add quotations (Big Mac => 'Big Mac')
+      // if string with spaces, adds quotations (Big Mac => 'Big Mac')
       if (typeof value === "string" && value.indexOf(" ") >= 0) {
         value = "'" + value + "'";
       }
-      // e.g. {name: 'Big mac'} => ["name='Big Mac'"]
-      // e.g. {devour: true} => ["devour=true"]
+      // ex. {name: 'Big mac'} => ["name='Big Mac'"]
+      // ex. {devoured: true} => ["devoured=true"]
       arr.push(key + "=" + value);
     }
   }
