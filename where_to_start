@@ -1,0 +1,16 @@
+1) Deploy this base app to heroku
+    - Once you get it working as-is then you know you can successfully connect to remote database
+
+2) Work on earch route 1 by 1
+
+    Backend
+    - GET
+    - POST
+    - UPDATE
+
+    Consider hardcoding some stuff here to eliminate any noise.
+    e.g. Hardcode your request body handle your POST and PUT
+
+3) Frontend
+    - Remove hardcoded stuff from Backend
+    - Now wire up the front end and ensure your jquery ajax is hitting the appropriate route endpoints and sending the correct information in the request body
