@@ -1,5 +1,22 @@
 <h1>Eat-Da-Burger</h1>
 
+<h2>Add a burger to the Queue!</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="burger">Burger:</label>
+    <input type="text" id="newBurger" name="name">
+  </div>
+
+  <div class="form-group">
+    <label for="ca">Looks tasty??</label><br>
+    <input type="radio" name="ca" value="1" checked> Yes, please!<br>
+    <input type="radio" name="ca" value="0"> No, thank you.
+  </div>
+
+  <button type="submit">Add Burger</button>
+</form>
+
 <h2>Burger selection:</h2>
 
 <ul>
@@ -19,20 +36,3 @@
     {{/if}}
   {{/each}}
 </ul>
-
-<h2>Eat-Da-Burger!</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="burger">Burger:</label>
-    <input type="text" id="newBurger" name="name">
-  </div>
-
-  <div class="form-group">
-    <label for="ca">Looks tasty??</label><br>
-    <input type="radio" name="ca" value="1" checked> Yes, please!<br>
-    <input type="radio" name="ca" value="0"> No, thank you.
-  </div>
-
-  <button type="submit">Submit choice.</button>
-</form>
