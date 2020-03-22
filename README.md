@@ -6,7 +6,7 @@ Eat-Da-Burger! is a restaurant app that lets users input names of burgers and th
 
 ## App Preview
 
-![eatdaburger_ss](https://user-images.githubusercontent.com/58443430/77263951-64fdb000-6c67-11ea-9741-301f5d1930b8.png =500x)
+![eatdaburger_ss](https://user-images.githubusercontent.com/58443430/77263951-64fdb000-6c67-11ea-9741-301f5d1930b8.png)
 
 ## Programs used
 
