@@ -4,10 +4,13 @@ body {
   background-color: #ffae42;
 }
 
+#burger_ting {
+  align-self: center;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
 }
 
 .label {
@@ -22,4 +25,16 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.create-form {
+  font-weight: bold;
+}
+
+.addNewBurger {
+  background-color: #77DD77;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  font-weight: bold;
 }
