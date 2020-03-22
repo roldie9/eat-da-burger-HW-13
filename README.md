@@ -2,7 +2,7 @@
 
 ## Description
 
-Eat-Da-Burger! is a restaurant app that lets users input names of burgers and then "Devour It".
+**Eat-Da-Burger!** is a restaurant app that lets users input names of burgers and then "Devour It".
 
 ## App Preview
 
